@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Sab's Table</title>
+</header>
+
+<body>
+    <header class="stylingbox">
+        <h1 class="center-title">Sab's Table</h1>
+    </header>
+    <nav class="stylingbox">
+        <ul class="navi-balk">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="about.html">About Sabine</a>
+            </li>
+
+        </ul>
+    </nav>
+    <main class="stylingbox">
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Telephone number: <input type="tel" name="Telephone" /></label>
+            </p>
+            <p>
+                <label>Date of birth: <input type="date" name="date" /></label>
+            </p>
+            <p>
+                <label>Gender:
+                    <br> <input type="radio" name="gender" value="Male">Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    <input type="radio" name="gender" value="other"> Other
+                </label>
+            </p>
+            <p>
+                <label>Favorite cuisine:
+                    <br>
+                    <input type="checkbox" name="cuisine" value="French">French
+                    <br>
+                    <input type="checkbox" name="cuisine" value="Italian">Italian
+                    <br>
+                    <input type="checkbox" name="cuisine" value="Spanish">Spanish
+                    <br>
+                    <input type="checkbox" name="cuisine" value="Arabic">Arabic
+                </label>
+            </p>
+            <p>
+                <label>
+                    Favorite apron color:
+                    <br>
+                    <input type="color" name="color">
+                </label>
+            </p>
+            <p> Biography:
+                <br>
+                <textarea rows="10" cols="30">
+                    Text field
+                </textarea>
+            </p>
+            <p>
+                Upload your latest recipe:
+                <input type="file">
+            </p>
+            <p>
+                URL to recipe website:
+                <input type="url">
+            </p>
+            <p>
+                <input type="reset">
+            </p>
+            <p>
+                <input type="submit">
+            </p>
+        </form>
+
+
+    </main>
+
+</body>
+
+</html>
